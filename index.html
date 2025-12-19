@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flipvision Song Contest</title>
+</head>
+<body>
+    <style>
+        body{
+            background: radial-gradient(120% 150% at 90% -3%, rgb(0, 4, 255) 10%, #000c54, #010a41, #4c0a54, #ff0178, #be046b);
+            background-size: 400% 400%;
+	        animation: gradient 15s infinite;
+            text-align: center;
+        }
+        img{
+            width: 50%
+        }
+        h1, p{
+            color: white;
+        }
+        button{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            background-size: 400% 400%;
+	        animation: gradient 15s ease infinite;
+            border: 2px solid white;
+        }
+        .product{
+            border: 1px solid white;
+            border-radius: 10px;
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            background-size: 400% 400%;
+	        animation: gradient 15s ease infinite;
+            width: 18%;
+            display: inline-block;
+            height: 500px;
+            margin: 5px;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+        .headroom{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            height: 150px;
+            color: white;
+        }
+        .balcony{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            height: 150px;
+            color: white;
+        }
+        .vip{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            height: 150px;
+            color: white;
+        }
+        .headroom1{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            color: white;
+        }
+        .balcony1{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            color: white;
+        }
+        .vip1{
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            color: white;
+        }
+        table{
+            margin: 50px auto;
+        }
+        th{
+            border-radius: 10px;
+        }
+        td{
+            border: 1px dashed radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);;
+            border-collapse: collapse;
+            background-color: white;
+        }
+        h2{
+            color: white;
+        }
+        .flip{
+            width: 70%;
+        }
+        .winner{
+            border: 1px solid white;
+            border-radius: 10px;
+            width: 20%;
+            display: inline-block;
+            height: 800px;
+            margin: 5px;
+            box-sizing: border-box;
+            vertical-align: top;
+        }
+        .logo{
+            width: 30%;
+        }
+    </style>
+    
+    <img src="logo_v2.png" alt="" class="logo">
+    <h1>Наш мерч</h1>
+    <p>Можете приобрести наш мерч!</p>
+
+    <div class="product">
+        <img src="Снимок экрана 2025-10-08 193019.png" alt="">
+        <p>Flipvision Song Contest T-Shirt</p>
+        <p>30 €</p>
+        <button id="productsinbin">Добавить в корзину</button>
+    </div>
+
+    <div class="product">
+        <img src="Снимок экрана 2025-10-08 201448.png" alt="">
+        <p>Flipvision Song Contest Black Hat</p>
+        <p>10 €</p>
+        <button id="productsinbin">Добавить в корзину</button>
+    </div>
+
+    <div class="product">
+        <img src="Снимок экрана 2025-10-08 202032.png" alt="">
+        <p>Flipvision Song Contest Cup</p>
+        <p>15 €</p>
+        <button id="productsinbin">Добавить в корзину</button>
+    </div>
+
+    <h2>Вы можете выбрать билет на FSC(Flipvision Song Contest)</h2>
+
+    <table>
+        <thead>
+            <th class="headroom">В зале</th>
+            <th class="balcony">На балконе зала</th>
+            <th class="vip">VIP</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Браслет с лампочками</td>
+                <td>Браслет с лампочками</td>
+                <td>Браслет с лампочками</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Отдельный балконс окном зала FSC</td>
+                <td>ВИП комната над Green Room</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Ноутбук на балконе MSI GL62 6QF</td>
+                <td>3 мощных ПК с кроватью</td>
+            </tr>
+            <tr>
+                <td class="headroom1">Выбрать билет</td>
+                <td class="balcony1">Выбрать билет</td>
+                <td class="vip1">Выбрать билет</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Наш побитель Flipvision Song Contest 2025!</h2>
+
+    <div class="winner">
+        <img src="IMG_0041.png" class="flip">
+        <p>Это Флип. Он презентовал и был кандидатом Эстонии на Flipvision Song Contest 2025. И он выиграл Flipvision Song Contest 2025. В декабре вышел лого и сцена FSC 2026! Поздравляем нашего Флипа! </p>
+    </div>
+
+    <h2>Другие побидители(2025-2023)</h2>
+
+    <div class="winner">
+        <img src="IMG_0041.png" class="flip">
+        <p>Это Флип. Он презентовал и был кандидатом Эстонии на Flipvision Song Contest 2025. И он выиграл Flipvision Song Contest 2025. В декабре вышел лого и сцена FSC 2026! Поздравляем нашего Флипа! </p>
+    </div>
+
+    <div class="winner">
+        <img src="IMG_0038.png" class="flip">
+        <p>Это Средний Серый Паук. Он презентовал и был кандидатом Финляндии на Flipvision Song Contest 2024. И он выиграл Flipvision Song Contest 2024. И в январе 2025 был релиз нового лого! Поздравляем нашего Паука!</p>
+    </div>
+
+    <div class="winner">
+        <img src="IMG_0094.png" class="flip">
+        <p>Это DmitriusSim. Он презентовал и был кандидатом Литвы на Flipvision Song Contest 2023. И он - человек, который презентует много стран. Например он был кандидатом Нидерландов на 2025 год. И он выиграл Flipvision Song Contest 2023. Поздравляем нашего DmitriusSim!</p>
+    </div>
+
+    <h2>Вот сцена FSC 2026!</h2>
+    <img src="image.png" alt="">
+
+    <h2>Вот совечик который может тебе помочь с выбором!</h2>
+
+    <h4>Спроси: нормально ли выбирать в зале, нормально ли выбирать балкон и нормально ли выбирать ВИП</h4>
+
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <input type="text" id="chat-input" placeholder="Напиши вопрос про билеты...">
+        <button onclick="sendMessage()">Отправить</button>
+    </div>
+
+    <style>
+        #chat-container {
+            width: 400px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 0 15px radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+        }
+        #chat-box {
+            height: 300px;
+            overflow-y: auto;
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: #f9f9f9;
+            border-radius: 10px;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        #chat-box div {
+            margin: 5px 0;
+            padding: 6px 8px;
+            border-radius: 6px;
+            white-space: pre-line;
+        }
+        .user {
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            text-align: right;
+            opacity: 0.8;
+            color: white;
+        }
+        .bot {
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            text-align: left;
+            opacity: 0.8;
+            color: white;
+        }
+        #chat-input {
+            width: 70%;
+            padding: 6px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+        button {
+            padding: 6px 12px;
+            border: none;
+            background: radial-gradient(120% 150% at 90% -3%, #20f, #000c54 20%, #010a41 , #4c0a54, #ff0178, #be046b);
+            background-size: 400% 400%;
+	        animation: gradient 15s ease infinite;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:hover {
+            background: rgb(14, 0, 105), #000838 20%, #00062c , #1f0022, #550028, #5c0032;
+            animation: pulse;
+            animation-duration: 5s;
+        }
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+
+    <script>
+    function sendMessage() {
+        let input = document.getElementById("chat-input");
+        let message = input.value.trim();
+        if(message !== "") {
+            addMessage("👤 " + message, "user");
+            botReply(message);
+            input.value = "";
+        }
+    }
+
+    function addMessage(text, type) {
+        let chatBox = document.getElementById("chat-box");
+        let newMessage = document.createElement("div");
+        newMessage.textContent = text;
+        newMessage.classList.add(type);
+        chatBox.appendChild(newMessage);
+        chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    function botReply(message) {
+        let reply = "🤖 Не понял вопрос. Напиши, какой билет тебя интересует — 'в зале', 'на балконе' или 'ВИП'.";
+        let lower = message.toLowerCase();
+
+        if (lower.includes("зал") || lower.includes("в зале")) {
+            reply = "🎟️ Билет в зале — отличный вариант, если хочешь сэкономить. \n\n" +
+                    "💰 Цена: самая доступная. \n📍 Место: ближе к сцене, можно почувствовать атмосферу шоу. \n" +
+                    "🎧 Совет: приходи пораньше, чтобы занять хорошее место!\n\nЕсли у тебя ограниченный бюджет — это лучший выбор!";
+        } 
+        else if (lower.includes("балкон")) {
+            reply = "🎟️ Билет на балконе — выбор для тех, кто любит комфорт и отличный обзор.\n\n" +
+                    "💸 Стоимость: средняя, но впечатления — на уровне! \n👀 Вид сверху шикарный, особенно на FlipVision-экране.\n" +
+                    "💺 Совет: захвати бинокль или просто расслабься — атмосфера сверху крутая.\n\nЕсли у тебя немного больше средств, чем на зал — смело бери балкон!";
+        } 
+        else if (lower.includes("вип") || lower.includes("vip")) {
+            reply = "🌟 ВИП-билет — для настоящих легенд FlipVision!\n\n" +
+                    "💎 Цена высокая, но оно того стоит: мягкие кресла, персональное обслуживание, бесплатный чай (и для Флипа булочки 😋).\n" +
+                    "🎬 Вид на экран идеальный, никакой суеты.\n" +
+                    "🚀 Совет: если хочешь провести вечер по-царски и почувствовать себя как хакер-миллионер — бери ВИП без сомнений!";
+        }
+        else if (lower.includes("вип") || lower.includes("где купить билеты")) {
+            reply = "Здраствуйте! Билеты можно купить сверху над побидителями. Если кнопки не работают, позвоните в поддержку на номер +372 5380 3655. Если вы НЕ в европе - звоните на +7 924 290 01-05";
+        }
+
+        addMessage(reply, "bot");
+    }
+
+    document.getElementById("chat-input").addEventListener("keypress", function(e) {
+        if(e.key === "Enter") sendMessage();
+    });
+    </script>
+
+
+</body>
+</html>
